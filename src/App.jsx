@@ -55,6 +55,8 @@ function App() {
     setQuestions(randomQuestionsGenerator());
     setHideNumber(3);
     setCheckAnswers(false);
+
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }
 
   function handleHint() {
