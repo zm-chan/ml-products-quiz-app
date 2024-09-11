@@ -19,11 +19,13 @@ function Products() {
     <>
       <div className="overflow-x-auto">
         <div className="text-center">
-          <button
-            className={`${buttonGeneralClassName} ${buttonVariants.default} mt-6`}
-          >
-            <Link to={"/"}>To Quiz</Link>
-          </button>
+          <Link to={"/"}>
+            <button
+              className={`${buttonGeneralClassName} ${buttonVariants.default} mt-6`}
+            >
+              To Quiz
+            </button>
+          </Link>
         </div>
         <div className="mt-6 flex flex-col items-center gap-3 md:flex-row md:gap-6">
           <label htmlFor="search" className="font-medium text-fuchsia-700">

@@ -82,11 +82,13 @@ function Quiz() {
   return (
     <>
       <div className="text-center">
-        <button
-          className={`${buttonGeneralClassName} ${buttonVariants.default} mt-6`}
-        >
-          <Link to={"/products"}>To Products List</Link>
-        </button>
+        <Link to={"/products"}>
+          <button
+            className={`${buttonGeneralClassName} ${buttonVariants.default} mt-6`}
+          >
+            To Products List
+          </button>
+        </Link>
       </div>
       <div className="mt-9 grid gap-6 lg:grid-cols-2">
         <article className="overflow-x-scroll rounded-xl bg-white p-5 shadow-xl lg:col-span-1">
